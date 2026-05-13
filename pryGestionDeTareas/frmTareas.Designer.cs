@@ -89,7 +89,7 @@
             this.btnGuardarTarea.Location = new System.Drawing.Point(165, 400);
             this.btnGuardarTarea.Name = "btnGuardarTarea";
             this.btnGuardarTarea.Size = new System.Drawing.Size(142, 36);
-            this.btnGuardarTarea.TabIndex = 10;
+            this.btnGuardarTarea.TabIndex = 6;
             this.btnGuardarTarea.Text = "Guardar tarea";
             this.btnGuardarTarea.UseVisualStyleBackColor = false;
             this.btnGuardarTarea.Click += new System.EventHandler(this.btnGuardarTarea_Click);
@@ -106,14 +106,14 @@
             this.cmbUsuario.Location = new System.Drawing.Point(134, 351);
             this.cmbUsuario.Name = "cmbUsuario";
             this.cmbUsuario.Size = new System.Drawing.Size(121, 28);
-            this.cmbUsuario.TabIndex = 9;
+            this.cmbUsuario.TabIndex = 5;
             // 
             // dateTimePicker1
             // 
             this.dateTimePicker1.Location = new System.Drawing.Point(216, 292);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(209, 26);
-            this.dateTimePicker1.TabIndex = 8;
+            this.dateTimePicker1.TabIndex = 4;
             // 
             // cmbPrioridad
             // 
@@ -126,7 +126,7 @@
             this.cmbPrioridad.Location = new System.Drawing.Point(134, 230);
             this.cmbPrioridad.Name = "cmbPrioridad";
             this.cmbPrioridad.Size = new System.Drawing.Size(121, 28);
-            this.cmbPrioridad.TabIndex = 2;
+            this.cmbPrioridad.TabIndex = 3;
             // 
             // cmbCategoria
             // 
@@ -192,14 +192,14 @@
             this.txtDescripcion.Multiline = true;
             this.txtDescripcion.Name = "txtDescripcion";
             this.txtDescripcion.Size = new System.Drawing.Size(218, 46);
-            this.txtDescripcion.TabIndex = 2;
+            this.txtDescripcion.TabIndex = 1;
             // 
             // txtTitulo
             // 
             this.txtTitulo.Location = new System.Drawing.Point(134, 41);
             this.txtTitulo.Name = "txtTitulo";
             this.txtTitulo.Size = new System.Drawing.Size(218, 26);
-            this.txtTitulo.TabIndex = 1;
+            this.txtTitulo.TabIndex = 0;
             // 
             // lblTitulo
             // 
