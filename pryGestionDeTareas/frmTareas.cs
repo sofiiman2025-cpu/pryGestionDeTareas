@@ -64,7 +64,23 @@ namespace pryGestionDeTareas
 
         private void btnEliminar_Click(object sender, EventArgs e)
         {
-            
+            if (dgvTareas.SelectedRows.Count == 0)
+            {
+                MessageBox.Show("Seleccione una tarea");
+                return;
+            }
+
+            var respuesta = MessageBox.Show("¿Desea eliminar la(s) tarea(s) seleccionada(s)?", "Confirmar eliminación", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (respuesta == DialogResult.Yes)
+            {
+                // Eliminar todas las filas seleccionadas
+                while (dgvTareas.SelectedRows.Count > 0)
+                {
+                    dgvTareas.Rows.RemoveAt(dgvTareas.SelectedRows[0].Index);
+                }
+
+                MessageBox.Show("Tarea(s) eliminada(s) correctamente");
+            }
         }
 
         private void btnReportes_Click(object sender, EventArgs e)
